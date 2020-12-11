@@ -1,0 +1,45 @@
+Started GET "/" for ::1 at 2020-12-10 23:32:22 -0600
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Adrian/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Adrian/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.5ms | Allocations: 480)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4041)
+
+
+Started GET "/city_cuisines" for ::1 at 2020-12-10 23:32:40 -0600
+Processing by ApplicationController#city_cuisines as HTML
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms | Allocations: 80)
+
+
+Started GET "/cuisine_daily_menus" for ::1 at 2020-12-10 23:33:09 -0600
+Processing by ApplicationController#cuisine_daily_menus as HTML
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 31)
+
+
+Started GET "/city_cuisines" for ::1 at 2020-12-11 00:09:36 -0600
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 204 No Content in 450ms (ActiveRecord: 0.0ms | Allocations: 1203)
+
+
+Started GET "/city_cuisines" for ::1 at 2020-12-11 00:10:10 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 204 No Content in 441ms (ActiveRecord: 0.0ms | Allocations: 1116)
+
+
+Started GET "/city_cuisines" for ::1 at 2020-12-11 00:11:01 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 204 No Content in 450ms (ActiveRecord: 0.0ms | Allocations: 1127)
+
+
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=austin,%20tx" for ::1 at 2020-12-11 00:11:38 -0600
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"austin, tx", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 204 No Content in 446ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
