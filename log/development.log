@@ -43,3 +43,267 @@ Processing by ApplicationController#city_cuisines as */*
 Completed 204 No Content in 446ms (ActiveRecord: 0.0ms | Allocations: 1296)
 
 
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=austin,%20tx" for ::1 at 2020-12-11 12:58:56 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"austin, tx", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 500 Internal Server Error in 1511ms (ActiveRecord: 0.0ms | Allocations: 72547)
+
+
+  
+NameError (undefined local variable or method `cuisine_responcodese' for #<ApplicationController:0x00007ffcb19799f0>
+Did you mean?  cuisine_response):
+  
+app/controllers/application_controller.rb:18:in `city_cuisines'
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=austin,%20tx" for ::1 at 2020-12-11 12:59:26 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"austin, tx", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 808ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 6027)
+
+
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=egregrgregreg" for ::1 at 2020-12-11 13:00:43 -0600
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"egregrgregreg", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 410ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1219)
+
+
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=dallas,%20tx" for ::1 at 2020-12-14 00:37:21 -0600
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"dallas, tx", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1184ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6001)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:39:56 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 5645ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 13667)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:40:31 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 8054ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 19789)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:48:19 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 500 Internal Server Error in 1187ms (ActiveRecord: 0.0ms | Allocations: 3136)
+
+
+  
+NoMethodError (private method `puts' called for #<HTTParty::Response:0x00007f828cfe22f0>):
+  
+app/controllers/application_controller.rb:33:in `block in cuisine_daily_menus'
+app/controllers/application_controller.rb:29:in `each'
+app/controllers/application_controller.rb:29:in `cuisine_daily_menus'
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:49:09 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 500 Internal Server Error in 1038ms (ActiveRecord: 0.0ms | Allocations: 3258)
+
+
+  
+NoMethodError (private method `puts' called for #<HTTParty::Response:0x00007f829030c0b8>):
+  
+app/controllers/application_controller.rb:33:in `block in cuisine_daily_menus'
+app/controllers/application_controller.rb:29:in `each'
+app/controllers/application_controller.rb:29:in `cuisine_daily_menus'
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:49:25 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 500 Internal Server Error in 1241ms (ActiveRecord: 0.0ms | Allocations: 3266)
+
+
+  
+NoMethodError (private method `puts' called for #<HTTParty::Response:0x00007f8291008898>):
+  
+app/controllers/application_controller.rb:33:in `block in cuisine_daily_menus'
+app/controllers/application_controller.rb:29:in `each'
+app/controllers/application_controller.rb:29:in `cuisine_daily_menus'
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:49:38 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1709ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3768)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:50:01 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1770ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3650)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 00:50:35 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1247ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 3647)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 00:50:51 -0600
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 420ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1226)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 00:59:56 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/Adrian/Desktop/iSeatz/github/iSeatz-Zomato/app/controllers/application_controller.rb:47: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/application_controller.rb:47: syntax error, unexpected end-of-input, expecting end
+app/controllers/application_controller.rb:47: syntax error, unexpected end-of-input, expecting end
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:01:00 -0600
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:01:36 -0600
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:03:07 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 494ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 4140)
+
+
+Completed 200 OK in 494ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 4132)
+
+
+Completed 200 OK in 464ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3788)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:04:06 -0600
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:05:37 -0600
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 666ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1337)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:05:52 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 460ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1244)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:07:27 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 626ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1244)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=200000" for ::1 at 2020-12-14 01:09:03 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"200000", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 653ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1244)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 01:09:09 -0600
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1459ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 3698)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 01:13:43 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1577ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3632)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 01:15:31 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 500 Internal Server Error in 1335ms (ActiveRecord: 0.0ms | Allocations: 72615)
+
+
+  
+NameError (undefined local variable or method `console' for #<ApplicationController:0x00007ff2611e6940>):
+  
+app/controllers/application_controller.rb:47:in `block in aggregate_menus'
+app/controllers/application_controller.rb:44:in `each'
+app/controllers/application_controller.rb:44:in `aggregate_menus'
+app/controllers/application_controller.rb:31:in `cuisine_daily_menus'
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 01:15:46 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1764ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 5628)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=3" for ::1 at 2020-12-14 01:19:33 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"3", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1398ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 3625)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=7" for ::1 at 2020-12-14 01:19:40 -0600
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"7", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 389ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1224)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=1" for ::1 at 2020-12-14 01:23:25 -0600
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"1", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1922ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 3619)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=1" for ::1 at 2020-12-14 01:26:08 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/Adrian/Desktop/iSeatz/github/iSeatz-Zomato/app/controllers/application_controller.rb:58: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/application_controller.rb:58: syntax error, unexpected end-of-input, expecting end
+app/controllers/application_controller.rb:58: syntax error, unexpected end-of-input, expecting end
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=1" for ::1 at 2020-12-14 01:26:23 -0600
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=1" for ::1 at 2020-12-14 01:28:01 -0600
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"1", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 2713ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3784)
+
+
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=egregrgregreg" for ::1 at 2020-12-17 12:32:03 -0600
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"egregrgregreg", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 606ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1327)
+
+
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=austin,%20tx" for ::1 at 2020-12-17 12:32:20 -0600
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"austin, tx", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 821ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 5989)
+
+
+Started GET "/city_cuisines?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_name=austin,%20tx" for ::1 at 2020-12-17 12:33:05 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#city_cuisines as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_name"=>"austin, tx", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1019ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 5990)
+
+
+Started GET "/cuisine_daily_menus?api_key=f85dc75045fec9ea85a3101ee0ba192a&city_id=276&cuisine_id=1" for ::1 at 2020-12-17 12:45:44 -0600
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#cuisine_daily_menus as */*
+  Parameters: {"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}", "api_key"=>"f85dc75045fec9ea85a3101ee0ba192a", "city_id"=>"276", "cuisine_id"=>"1", "application"=>{"snippet"=>"{(doc.createEl({element}));if (secondClass !== 3) createdElement.classList.add({className);createdElement.innerText = {innerText};return createdElement;}"}}
+Completed 200 OK in 1337ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 3750)
+
+
