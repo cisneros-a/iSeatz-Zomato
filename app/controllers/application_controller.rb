@@ -16,9 +16,9 @@ class ApplicationController < ActionController::API
             cuisine_response = HTTParty.get("#{@@base_url}/cuisines?city_id=#{city_id}", {headers: {"user-key": params[:api_key]}})
             cuisines_list = []
             for cuisine in cuisine_response["cuisines"] do
-                cuisines_list << {"cusine_name" => cuisine["cuisine"]["cuisine_name"], "cuisine_id" => cuisine["cuisine"]["cuisine_id"]}
+                cuisines_list << {"cuisine_name" => cuisine["cuisine"]["cuisine_name"], "cuisine_id" => cuisine["cuisine"]["cuisine_id"]}
             end
-            render json: {"city_info": city_info, "cusines": cuisines_list}
+            render json: {"city_info": city_info, "cuisines": cuisines_list}
         end
     end
 
